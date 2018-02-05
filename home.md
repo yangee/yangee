@@ -1,4 +1,6 @@
-#Home
+# Home
 ## This is gee's github page
-#
-[test](./jekylltest)
+
+## articles
+
+[codeDojo](./jekylltest)
