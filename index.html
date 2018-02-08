@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello</h1>
+<div class="home">
+<h1 class="page-heading">Posts</h1>
 <p>I'm hosted with GitHub Pages.</p>
 <p>Test</p>
 <p>Work</p>
+    <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • <a href="https://yangee.github.io{{ post.url }}#disqus_thread">0 Comments</a></span>
+    
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
 <a href="jekylltest">Code Dojo</a>
 <a href="ama_aj">AJ's Quora Q&A</a>
-</body>
+</div>
 </html>
