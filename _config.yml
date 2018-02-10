@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+github: [metadata]
+name: Yangee github page
+kramdown:
+  input: GFM
+  hard_wrap: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+baseurl: "/"
