@@ -1,7 +1,7 @@
 ---
 ---
 
-import "{{ site.theme }}";
+@import "{{ site.theme }}";
 .btn {
   color: rgba(22, 150, 86, 0.99);
   border: none;
