@@ -6,4 +6,3 @@ kramdown:
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
-baseurl: "/"

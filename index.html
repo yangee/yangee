@@ -6,20 +6,19 @@ comments: true
 <html>
 <div class="home">
 <h1 class="page-heading">Posts</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p>Test</p>
-<p>Work</p>
-    <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • <a href="https://yangee.github.io{{ post.url }}#disqus_thread">0 Comments</a></span>
-    
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-          </li>
-        {% endfor %}
-      </ul>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>지킬로 깃허브에 무료 블로그 만들기</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css"> <!-- /css 앞에 을 추가한다. -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css"> <!-- /css 앞에 을 추가한다. -->
+
+</head>
 <a href="jekylltest">Code Dojo</a>
 <a href="ama_aj">AJ's Quora Q&A</a>
 </div>
