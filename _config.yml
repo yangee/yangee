@@ -7,3 +7,4 @@ kramdown:
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
+remote_theme: "mmistakes/minimal-mistakes"
