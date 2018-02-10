@@ -1,7 +1,7 @@
 ###  [Research](/research){: .btn}      [CV](/docs/jhyang_CV.pdf){: .btn}     
 
 ## Bio
-<img src="img/emoji_happysad.png" alt="happysad emoji" align="right" style="width: 250px;"/>
+<img src="img/emoji_happysad.PNG" alt="happysad emoji" align="right" style="width: 250px;"/>
 I'm a master student majoring in Computational Geophysics ([GPL](https://gpl.snu.ac.kr)) at Seoul National University. 
 
 ## Contact
